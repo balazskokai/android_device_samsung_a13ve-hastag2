@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
 DEVICE_PATH := device/samsung/a13ve
 
 #AB
