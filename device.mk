@@ -15,3 +15,6 @@
 #
 
 LOCAL_PATH := device/samsung/a13ve
+
+# Dynamic partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
