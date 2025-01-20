@@ -10,8 +10,7 @@
 /product_image      emmc         /dev/block/bootdevice/by-name/product           flags=backup=1;flashimg=1;display="Product Image"
 /vendor_image       emmc         /dev/block/bootdevice/by-name/vendor            flags=backup=1;flashimg=1
 
-# ETC Moint Point
-/cache              ext4         /dev/block/bootdevice/by-name/cache
+/cache              ext4         /dev/block/bootdevice/by-name/cache             flags=display="Cache";backup=1;wipeingui
 
 #frimware
 /omr		        ext4		/dev/block/bootdevice/by-name/omr		         flags=wipeingui;display="OMR"
